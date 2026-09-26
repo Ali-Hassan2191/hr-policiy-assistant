@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-GROQ_MODEL = "openai/gpt-oss-20b"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 CHUNK_SIZE = 900
 CHUNK_OVERLAP = 150
