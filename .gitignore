@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local data / generated files
+*.pdf
+*.faiss
+*.pkl
+*.pickle
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
